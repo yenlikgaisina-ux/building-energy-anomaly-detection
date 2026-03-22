@@ -74,81 +74,78 @@
 > >
 > > ## 📈 Key Findings
 > >
-> > <table>
-  <tr>
-    <td align="center"><b>🏚️ 2.3%</b>b><br/>of properties flagged<br/>as anomalous</td>td>
-    <td align="center"><b>⚡ 3–5×</b>b><br/>higher energy consumption<br/>vs dataset median</td>td>
-    <td align="center"><b>🏗️ Pre-1930</b>b><br/>highest concentration<br/>of anomalies</td>td>
-    <td align="center"><b>✅ 78%</b>b><br/>agreement between<br/>IQR & Isolation Forest</td>td>
-  </tr>tr>
-  </table>
+> > | Metric | Result |
+> > |---|---|
+> > | 🏚️ Properties flagged as anomalous | **~2.3%** of total dataset |
+> > | ⚡ Energy consumption vs median | **3–5× higher** in anomalous buildings |
+> > | 🏗️ Highest anomaly concentration | Properties built **pre-1930**, solid wall, no insulation |
+> > | 💨 CO2 emissions (flagged vs normal) | **4.1 tonnes/year** vs 1.8 tonnes/year |
+> > | ✅ Method agreement (IQR & Isolation Forest) | **~78%** of flagged cases |
+> >
+> > - 🔴 **Anomalous buildings** showed energy consumption **3–5× higher** than the dataset median
+> > - - 🏚️ Highest anomaly concentration: properties built **pre-1930** with solid wall construction and no insulation
+> >   - - 💨 CO2 emissions in flagged properties averaged **4.1 tonnes/year** vs 1.8 tonnes for normal properties
+> >     - - 🤝 Isolation Forest and IQR agreed on **~78%** of flagged cases, providing high-confidence candidates for intervention
+> >      
+> >       - ---
+> >
+> > ## 💼 Business Applications
+> >
+> > A local authority or housing association could use these outputs to:
+> >
+> > | Step | Action |
+> > |---|---|
+> > | 1️⃣ | Cross-reference flagged properties against owner/tenure data to identify eligible households for government retrofit schemes (e.g. **ECO4**, **Great British Insulation Scheme**) |
+> > | 2️⃣ | Prioritise outreach and surveying to properties in the **top anomaly confidence tier** |
+> > | 3️⃣ | Estimate potential **CO2 reduction** per intervention using the predicted efficiency gap |
+> > | 4️⃣ | Report impact metrics to **central government funding bodies** |
+> >
+> > ---
+> >
+> > ## 📁 Repository Structure
+> >
+> > ```
+> > building-energy-anomaly-detection/
+> > │
+> > ├── 📓 notebook/
+> > │   └── building_energy_anomaly_detection.ipynb   # Full analysis notebook
+> > │
+> > ├── 📂 data/
+> > │   └── README.md                                  # Data source instructions
+> > │
+> > ├── 📊 outputs/
+> > │   └── figures/                                   # Saved visualisations
+> > │
+> > └── 📄 README.md
+> > ```
+> >
+> > ---
+> >
+> > ## 🛠️ Skills & Tools
+> >
+> > <div align="center">
 
-  - 🔴 **Anomalous buildings** showed energy consumption **3–5× higher** than the dataset median
-  - - 🏚️ Highest anomaly concentration: properties built **pre-1930** with solid wall construction and no insulation
-    - - 💨 CO2 emissions in flagged properties averaged **4.1 tonnes/year** vs 1.8 tonnes for normal properties
-      - - 🤝 Isolation Forest and IQR agreed on **~78%** of flagged cases, providing high-confidence candidates for intervention
-       
-        - ---
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=for-the-badge)
 
-        ## 💼 Business Applications
+**Methods:** `IQR` · `Isolation Forest` · `PCA` · `EDA` · `Anomaly Detection` · `Open Government Data`
 
-        A local authority or housing association could use these outputs to:
+</div>
 
-        | Step | Action |
-        |---|---|
-        | 1️⃣ | Cross-reference flagged properties against owner/tenure data to identify eligible households for government retrofit schemes (e.g. **ECO4**, **Great British Insulation Scheme**) |
-        | 2️⃣ | Prioritise outreach and surveying to properties in the **top anomaly confidence tier** |
-        | 3️⃣ | Estimate potential **CO2 reduction** per intervention using the predicted efficiency gap |
-        | 4️⃣ | Report impact metrics to **central government funding bodies** |
+---
 
-        ---
+## 👩‍💻 Author
 
-        ## 📁 Repository Structure
+<div align="center">
 
-        ```
-        building-energy-anomaly-detection/
-        │
-        ├── 📓 notebook/
-        │   └── building_energy_anomaly_detection.ipynb   # Full analysis notebook
-        │
-        ├── 📂 data/
-        │   └── README.md                                  # Data source instructions
-        │
-        ├── 📊 outputs/
-        │   └── figures/                                   # Saved visualisations
-        │
-        └── 📄 README.md
-        ```
+**Yenlik Gaisina, MPH**
+*Data Analyst | Cambridge Data Science & AI*
 
-        ---
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yenlik-gaisina/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yenlikgaisina-ux)
 
-        ## 🛠️ Skills & Tools
-
-        <div align="center">
-
-        ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-        ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-        ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-        ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-        ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
-        ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=for-the-badge)
-
-        **Methods:** `IQR` · `Isolation Forest` · `PCA` · `EDA` · `Anomaly Detection` · `Open Government Data`
-
-        </div>
-
-        ---
-
-        ## 👩‍💻 Author
-
-        <div align="center">
-
-        **Yenlik Gaisina, MPH**
-        *Data Analyst | Cambridge Data Science & AI*
-
-        [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yenlik-gaisina/)
-        [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yenlikgaisina-ux)
-
-        </div>
-  </tr>
-</table>
+</div>
