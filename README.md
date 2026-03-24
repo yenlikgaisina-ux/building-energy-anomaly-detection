@@ -52,19 +52,19 @@ Two complementary anomaly detection approaches are applied so results can be cro
 
 The PCA projection below shows clear separation between flagged and unflagged properties along PC1, which loads most strongly on energy consumption and CO2 emissions.
 
-![PCA separation chart](docs/pca_separation.png)
+![PCA separation chart](docs/pca_separation.svg)
 
 ### Anomaly Score Distribution
 
 Buildings in the top-right cluster combine high energy consumption with high CO2 emissions relative to floor area — the profile most consistent with pre-1930 solid-wall construction without insulation.
 
-![Anomaly distribution chart](docs/anomaly_distribution.png)
+![Anomaly distribution chart](docs/anomaly_distribution.svg)
 
 ### Retrofit Prioritisation Output
 
 The chart below shows the concentration of flagged properties by construction era and wall type — the two variables with strongest association with anomalous EPC scores.
 
-![Retrofit prioritisation chart](docs/retrofit_priority.png)
+![Retrofit prioritisation chart](docs/retrofit_priority.svg)
 
 ---
 
