@@ -8,7 +8,7 @@
 
 > *Which residential buildings in England and Wales are anomalously energy-inefficient, and how can local authorities and retrofit programmes prioritise them for intervention?*
 
-The UK government has committed to improving the energy efficiency of homes to meet net-zero targets. With millions of EPC records publicly available, this project applies three anomaly detection methods to identify buildings that fall outside expected efficiency patterns -- flagging them as priority candidates for retrofit investment.
+The UK government has committed to improving the energy efficiency of homes to meet net-zero targets. With millions of EPC records publicly available, this project applies three anomaly detection methods to identify buildings that fall outside expected efficiency patterns - flagging them as priority candidates for retrofit investment.
 
 ---
 
@@ -36,7 +36,7 @@ Three complementary anomaly detection approaches are applied. Using three method
 | **Isolation Forest** | Machine learning | Unsupervised ensemble that isolates anomalies by random feature partitioning. Buildings requiring fewer splits are scored as more anomalous. |
 | **One-Class SVM** | Machine learning | Fits a decision boundary around the normal distribution in feature space. Used as a second ML comparator alongside Isolation Forest. |
 
-PCA (2 components) is used for **visualisation only** -- to project flagged vs normal buildings into 2D and assess separation. It is not used as a decision model.
+PCA (2 components) is used for **visualisation only** - to project flagged vs normal buildings into 2D and assess separation. It is not used as a decision model.
 
 ---
 
@@ -78,20 +78,20 @@ Anomaly detection on real-world EPC data has no pre-defined "bad building" label
 
 ## Analyses Included
 
-- **Exploratory data analysis** -- distributions, descriptive statistics, correlation heatmap
-- **Construction era analysis** -- median energy consumption by building age band
-- **Three anomaly detection methods** -- IQR, One-Class SVM, Isolation Forest with parameter tuning
-- **PCA visualisation** -- 2D projection for each method
-- **Method agreement matrix** -- pairwise Jaccard overlap and tiered confidence scoring
-- **Anomaly profiling** -- feature-by-feature comparison of normal vs anomalous buildings
-- **Retrofit prioritisation** -- anomaly rates by construction era and property type
-- **Energy consumption distribution** -- histogram comparing normal and anomalous buildings
+- **Exploratory data analysis** - distributions, descriptive statistics, correlation heatmap
+- **Construction era analysis** - median energy consumption by building age band
+- **Three anomaly detection methods** - IQR, One-Class SVM, Isolation Forest with parameter tuning
+- **PCA visualisation** - 2D projection for each method
+- **Method agreement matrix** - pairwise Jaccard overlap and tiered confidence scoring
+- **Anomaly profiling** - feature-by-feature comparison of normal vs anomalous buildings
+- **Retrofit prioritisation** - anomaly rates by construction era and property type
+- **Energy consumption distribution** - histogram comparing normal and anomalous buildings
 
 ---
 
 ## Practical Application
 
-> **Scenario:** A local authority has budget to survey homes for retrofit assessment. Using this model, they can shortlist the highest-confidence anomalous properties -- those flagged by multiple detection methods -- and rank them by anomaly confidence tier.
+> **Scenario:** A local authority has budget to survey homes for retrofit assessment. Using this model, they can shortlist the highest-confidence anomalous properties - those flagged by multiple detection methods - and rank them by anomaly confidence tier.
 
 | Step | Action |
 |------|--------|
