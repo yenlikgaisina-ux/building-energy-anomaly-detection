@@ -106,7 +106,7 @@ Anomaly detection on real-world EPC data has no pre-defined "bad building" label
 
 → **Decision enabled:** A local authority with limited retrofit budget can prioritise survey visits using the tiered anomaly confidence score - directing assessors to the highest-confidence flagged properties first, rather than selecting at random or by postcode.
 
-→ **Time/cost saving:** Estimated 60–70% reduction in wasted survey visits. Random selection sends assessors to properties that may be inefficient but not anomalous; this model concentrates effort on the ~2% most likely to need intervention, making every survey visit count.
+→ **Potential operational use:** This approach could help a housing team narrow a large EPC dataset to a smaller group of properties for further investigation. I have not tested whether this would reduce survey costs or improve retrofit outcomes in practice.
 
 → **Stakeholder:** Local authority sustainability and housing officers administering ECO4, the Great British Insulation Scheme, or similar retrofit programmes - and central government analysts monitoring regional progress toward net-zero housing targets.
 
@@ -136,6 +136,8 @@ building-energy-anomaly-detection/
 
 ## Author
 
-**Yenlik Gaisina** | Data & Analytics Consultant
+Yenlik Gaisina
+
+Data Analyst portfolio project
 
 [LinkedIn](https://www.linkedin.com/in/yenlik-gaisina/) | Cambridge Data Science with ML & AI Programme
